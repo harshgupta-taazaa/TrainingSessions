@@ -29,15 +29,11 @@ namespace DeleteOccurrencesReattempt
                 }
             }
             //this loop is iterated only for testing the data 
-            //foreach(int i in arr)
-            //{
-            //    Console.WriteLine(i);
-            //}
-            string[] a = { "wme,r", "eew", "s" };
-            foreach (string i in a.Take(3).Where(x => !x.Contains(","))) 
+            foreach(int i in arr)
             {
-                Console.WriteLine(i);
+               Console.WriteLine(i);
             }
+           
         }
     }
 }
