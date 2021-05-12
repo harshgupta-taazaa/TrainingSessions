@@ -12,6 +12,7 @@ namespace DeleteOccurrences
             
             DeleteOccurrence Manager = new DeleteOccurrence();
             List<int> Result =Manager.DeleteExtraOccurrence(arr, 2);
+            //checking the output 
             foreach (int a in Result)
             {
                 Console.WriteLine(a);
